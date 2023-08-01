@@ -12,7 +12,7 @@ const Joke = () => {
 
   return (
     <div className="joke">
-      <img src={results.icon_url} alt="icon" />
+      {/* <img src={results.icon_url} alt="icon" /> */}
       <p>{results.value}</p>
     </div>
   );
